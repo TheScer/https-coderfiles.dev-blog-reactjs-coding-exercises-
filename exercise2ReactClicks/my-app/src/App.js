@@ -1,16 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import ClickButton from "./components/ClickButton";
 
 function App() {
   return (
-    <div className="App">
-      <button onClick={buttonclicked}>clickme</button>
+    <div>
+      <ClickButton name="button 1" children="button 1"></ClickButton>
+      <ClickButton name="button 2" children="button 2"></ClickButton>
+      <ClickButton name="button 3" children="button 3"></ClickButton>
     </div>
   );
-}
-
-function buttonclicked() {
-  alert("button was clicked!");
 }
 
 export default App;
