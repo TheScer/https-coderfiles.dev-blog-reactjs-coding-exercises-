@@ -4,7 +4,6 @@ import ClickButton from "./ClickButton";
 export const ButtonHolder = (props) => {
   function clickHandler() {
     const alertStr = "you clicked " + props.name;
-    console.log(props.name);
     alert(alertStr);
   }
 
