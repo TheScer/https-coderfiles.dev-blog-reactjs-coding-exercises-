@@ -1,6 +1,5 @@
 import "./App.css";
 import { ButtonHolder } from "./components/ButtonHolder";
-import ClickButton from "./components/ClickButton";
 
 function App() {
   return (
